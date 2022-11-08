@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        double celcius;
+        double celsius;
 
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter temperature in Celcius: ");
-        celcius = scan.nextDouble();
+        celsius = scan.nextDouble();
 
-        System.out.println(celcius + " Celsius is " + new ConvertToKelvin().convert(celcius) + " in Kelvin");
+        System.out.println(celsius + " Celsius is " + new ConvertToKelvin().convert(celsius) + " in Kelvin");
 
 
-        System.out.println(celcius + " Celsius14 is " + new ConverterToFahrenheit().convert(celcius) + " in Fahrenheit");
+        System.out.println(celsius + " Celsius14 is " + new ConverterToFahrenheit().convert(celsius) + " in Fahrenheit");
 
 
     }//main
